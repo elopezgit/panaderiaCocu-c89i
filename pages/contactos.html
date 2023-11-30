@@ -60,34 +60,44 @@
     </header>
     <main class="container my-5">
       <h1 class="text-center display-1 mb-4">CONTACTOS</h1>
-      <article>
-        <form>
-            <div class="mb-3">
-                <label for="nombreApellido" class="form-label">Nombre y apellido: *</label>
-                <input type="text" class="form-control" id="nombreApellido" placeholder="Escribí aqui tu nombre y apellido" 
-                minlength="5" maxlength="50" required>
-            </div>
 
-            <div class="mb-3">
-                <label for="email" class="form-label">E-mail: *</label>
-                <input type="email" class="form-control" id="email" placeholder="ejemplo@ejemplo.com" 
-                minlength="10" maxlength="320" required>
-            </div>
-
-            <div class="mb-3">
-                <label for="telefono" class="form-label">Telefono:</label>
-                <input type="tel" class="form-control" id="telefono" placeholder="Ej: 3816554433" 
-                minlength="7" maxlength="10" required>
-            </div>
-
+      <section class="row">
+        <article class="col-md-6">
+          <form>
               <div class="mb-3">
-                <label for="consulta" class="form-label">Consulta *</label>
-                <textarea class="form-control" id="consulta" rows="3" placeholder="Escribí aquí tu comentario"
-                required minlength="5" maxlength="250"></textarea>
+                  <label for="nombreApellido" class="form-label">Nombre y apellido: *</label>
+                  <input type="text" class="form-control" id="nombreApellido" placeholder="Escribí aqui tu nombre y apellido" 
+                  minlength="5" maxlength="50" required>
               </div>
-              <button class="btn btn-primary" type="submit">Enviar</button>
-        </form>
-      </article>
+  
+              <div class="mb-3">
+                  <label for="email" class="form-label">E-mail: *</label>
+                  <input type="email" class="form-control" id="email" placeholder="ejemplo@ejemplo.com" 
+                  minlength="10" maxlength="320" required>
+              </div>
+  
+              <div class="mb-3">
+                  <label for="telefono" class="form-label">Telefono:</label>
+                  <input type="tel" class="form-control" id="telefono" placeholder="Ej: 3816554433" 
+                  minlength="7" maxlength="10" required>
+              </div>
+  
+                <div class="mb-3">
+                  <label for="consulta" class="form-label">Consulta *</label>
+                  <textarea class="form-control" id="consulta" rows="3" placeholder="Escribí aquí tu comentario"
+                  required minlength="5" maxlength="250"></textarea>
+                </div>
+                <button class="btn btn-primary" type="submit">Enviar</button>
+          </form>
+        </article>
+
+        <article class="col-md-6">
+
+        </article>
+
+      </section>
+
+      
     </main>
     
     <footer class="bg-dark text-secondary py-4">
